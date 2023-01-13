@@ -1,0 +1,23 @@
+{
+  "name": "hw17",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlenBiz/HW17.git"
+  },
+  "author": "AlenBiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlenBiz/HW17/issues"
+  },
+  "homepage": "https://github.com/AlenBiz/HW17#readme",
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "cypress": "^12.3.0"
+  }
+}
