@@ -48,6 +48,7 @@ describe("santa login ui", () => {
       expect(response.status).to.eq(200);
     });
     cy.visit("https://santa-secret.ru");
+    cy.contains("Вход и регистрация").click({ force: true });
     loginpage.login("testbizyaev@gmail.com", newAssword);
     cy.contains("Коробки").should("exist");
     cy.contains("Alena").click({force:true});
@@ -65,6 +66,7 @@ describe("santa login ui", () => {
         expect(response.status).to.eq(200);
       });
       cy.visit("https://santa-secret.ru");
+      cy.contains("Вход и регистрация").click({ force: true });
       loginpage.login("testbizyaev@gmail.com", oldAssword);
   });
 });
